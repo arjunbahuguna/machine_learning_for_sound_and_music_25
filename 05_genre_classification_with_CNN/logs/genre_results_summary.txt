@@ -1,0 +1,30 @@
+============================================================
+HIERARCHICAL GENRE CLASSIFICATION RESULTS
+============================================================
+
+Dataset: MagnaTagATune (Genre Tags Only)
+Number of genre categories: 7
+Genres: rock, classical, electronic, jazz_blues, folk_country, urban, world
+Metric: ROC AUC (macro-averaged)
+
+------------------------------------------------------------
+MLP BASELINE RESULTS
+------------------------------------------------------------
+Best Validation AUC: 0.7891 (Epoch 3)
+Final Validation AUC: 0.6810
+Test AUC: 0.7866
+Test Loss: 0.3074
+
+------------------------------------------------------------
+CNN RESULTS
+------------------------------------------------------------
+Best Validation AUC: 0.9537 (Epoch 29)
+Final Validation AUC: 0.9412
+Test AUC: 0.9469
+Test Loss: 0.1600
+
+------------------------------------------------------------
+COMPARISON
+------------------------------------------------------------
+CNN vs MLP Improvement: +20.38%
+Absolute Difference: +0.1603
